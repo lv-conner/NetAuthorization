@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAuthorization", "NetAuthorization\NetAuthorization.csproj", "{48B646FF-B77F-49E3-9B6D-B32BDF46FBAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAuthorization.Interface", "ActionAuthorization.Interface\ActionAuthorization.Interface.csproj", "{E93F18CB-8FCD-4896-9ACB-A570B57F762B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{48B646FF-B77F-49E3-9B6D-B32BDF46FBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B646FF-B77F-49E3-9B6D-B32BDF46FBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B646FF-B77F-49E3-9B6D-B32BDF46FBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93F18CB-8FCD-4896-9ACB-A570B57F762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F18CB-8FCD-4896-9ACB-A570B57F762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F18CB-8FCD-4896-9ACB-A570B57F762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F18CB-8FCD-4896-9ACB-A570B57F762B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

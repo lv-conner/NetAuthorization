@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using NetAuthorization.Filters;
+using System.Web;
 using System.Web.Mvc;
 
 namespace NetAuthorization
@@ -7,7 +8,9 @@ namespace NetAuthorization
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new CustomerAuthenticationFilter());
+            filters.Add(new CustomerAuthorizationFilter());
+            filters.Add(new CustomerHandlerErrorFilter());
         }
     }
 }

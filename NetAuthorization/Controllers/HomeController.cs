@@ -10,6 +10,7 @@ namespace NetAuthorization.Controllers
     {
         public ActionResult Index()
         {
+            throw new ArgumentNullException();
             return View();
         }
 
