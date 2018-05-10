@@ -32,6 +32,7 @@ namespace NetAuthorization.Filters
         }
         private void HandleUnAuthorizationRequest(AuthorizationContext filterContext)
         {
+
         }
     }
 }
