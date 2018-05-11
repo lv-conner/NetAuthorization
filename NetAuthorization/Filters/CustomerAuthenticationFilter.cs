@@ -13,10 +13,10 @@ namespace NetAuthorization.Filters
     {
         public void OnAuthentication(AuthenticationContext filterContext)
         {
-            var identity = new GenericIdentity("Tim", "Customer");
-            var roles = DependencyResolver.Current.GetService<IAuthenticationServices>().GetRoles(identity.Name);
-            var user = new GenericPrincipal(identity, roles.ToArray());
-            filterContext.HttpContext.User = user;
+            //var identity = new GenericIdentity("Tim", "Customer");
+            //var roles = DependencyResolver.Current.GetService<IAuthenticationServices>().GetRoles(identity.Name);
+            //var user = new GenericPrincipal(identity, roles.ToArray());
+            //filterContext.HttpContext.User = user;
         }
 
         public void OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)
